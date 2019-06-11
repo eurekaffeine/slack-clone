@@ -29,7 +29,7 @@ A slack-clone Web application based on PHP and MySQL Database.
 1. User (**uid**, email, password, username, nickname);
 2. Workspace (**wid**, wname, description, wcreatorId, wcreateTime);
 3. Channel (**cid, wid,** channelName, ctype, ccreateTime);
-4. Message (**mid, cid,** mtype, fromId, content, messageTime);
+4. Message (**mid,** cid, mtype, fromId, content, messageTime);
 5. UseWorkspace (**wid, uid, wjointime**);
 6. UseChannel (**cid, uid, cjointime**);
 7. Administration (**wid, uid, admintime**);

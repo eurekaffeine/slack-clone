@@ -1,6 +1,10 @@
 # slack-clone
 A slack-clone Web application based on PHP and MySQL Database.
 
+## Installation and Usage
+1. In order to utilize the web application system, web server applications such as XAMPP, MySQL Database Application and Google Chrome Internet Browser should be installed in advance.
+2. before running the whole system, please create the database system and some useful user data. The creation of the database can be found in the `create_table.sql` and some of the example data can be found in `insert_table.sql`.
+
 ## Design of Database
 ### E-R Diagram
 ![e--w1104](media/15602269479686/e-r.png)

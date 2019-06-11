@@ -26,19 +26,17 @@ A slack-clone Web application based on PHP and MySQL Database.
 ## Relational Database System
 ### Relational Schema
 
-```
-User (uid, email, password, username, nickname);
-Workspace (wid, wname, description, wcreatorId, wcreateTime);
-Channel (cid, wid, channelName, ctype, ccreateTime);
-Message (mid, cid, mtype, fromId, content, messageTime);
-UseWorkspace (wid, uid, wjointime);
-UseChannel (cid, uid, cjointime);
-Administration (wid, uid, admintime);
-Invitation (fromId, toId, type, id, inviteTime);
-```
+1. User (**uid**, email, password, username, nickname);
+2. Workspace (**wid**, wname, description, wcreatorId, wcreateTime);
+3. Channel (**cid, wid,** channelName, ctype, ccreateTime);
+4. Message (**mid, cid,** mtype, fromId, content, messageTime);
+5. UseWorkspace (**wid, uid, wjointime**);
+6. UseChannel (**cid, uid, cjointime**);
+7. Administration (**wid, uid, admintime**);
+8. Invitation (**fromId, toId, type, id, inviteTime**);
 
 ### Key Constraints
-1. Primary Keys are all underlined.
+1. Primary Keys are all bold.
 2. Foreign Key Constraints:
 Workspace.wcreatorId is referencing User.uid;
 Channel.wid is referencing Workspace.wid;

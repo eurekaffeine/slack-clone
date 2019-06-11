@@ -83,6 +83,7 @@ After the successful login/register, the user will be redirected to the slack sy
 ![mainpage](media/15602269479686/mainpage.png)
 
 In the main message container, the channel name or another user’s name will be shown. To the right of the title is the add button for sending invitations to other users to join in a workspace, channel or giving privilege of administration to workspaces. Then located in the right top corner is the search system of the web application. All Workspace the user has joined, public Channels and direct messages can be searched and located in the result of the search system. On the left bottom corner of the slack page is current user’s avatar picture, clicking it will lead to automatic log-out of the current user. Then the bell picture with dotted numbers denotes the unread notifications of current user which contains invitations from other users.
+
 ![feature](media/15602269479686/feature.png)
 
 
